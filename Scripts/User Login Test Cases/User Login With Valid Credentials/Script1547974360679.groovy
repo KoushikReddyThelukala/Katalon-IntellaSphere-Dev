@@ -13,3 +13,26 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.sendKeys(findTestObject('Object Repository/Login Page/Username Text Field'), Email)
+
+WebUI.sendKeys(findTestObject('Object Repository/Login Page/Password Text Field'), Password)
+
+WebUI.click(findTestObject('Object Repository/Login Page/Log In Button'))
+
+Thread.sleep(10000)
+
+/*
+String Windowtitle = WebUI.getWindowTitle()
+
+println Windowtitle
+*/
+
+WebUI.click("findTestObject('Object Repository/Engage Page/Header/Posts Tab In Header')")
+
+Thread.sleep(5000)
+
+WebUI.click("findTestObject('Object Repository/Posts Page/Create Dropdown Button')")
+
+WebUI.click("findTestObject('Object Repository/Posts Page/Create Post Option Of Create Dropdown')")
+
+Thread.sleep(10000)

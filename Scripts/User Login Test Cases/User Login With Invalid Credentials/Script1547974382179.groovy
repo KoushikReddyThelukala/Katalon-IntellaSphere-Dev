@@ -13,3 +13,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.sendKeys(findTestObject('Object Repository/Login Page/EmailUsername Text Field'), Email)
+
+WebUI.sendKeys(findTestObject('Object Repository/Login Page/Password Text Field'), Password)
+
+Thread.sleep(10000)
+
+WebUI.click(findTestObject('Object Repository/Login Page/Log In Button'))
+
+Thread.sleep(10000)
+
+String InvalidCredentialsWarning = "You have entered an invalid username or password!"
+
+if (WebUI.verifyElementText(findTestObject('Object Repository/Login Page/Invalid Credentials Error Message'), "You have entered an invalid username or password!") == true)
+{
+	println InvalidCredentialsWarning
+}
+

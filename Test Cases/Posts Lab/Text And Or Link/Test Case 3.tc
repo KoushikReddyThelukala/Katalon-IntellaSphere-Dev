@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checking whether the user is able to Publish a Post, by selecting a Twitter Profile from the &quot;Select Profile(S)&quot; popup and by entering Text and/or Link in the &quot;Enter Text And/Or Link To Be Published&quot; text field or not.</description>
+   <name>Test Case 3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e32c0ffa-37a0-4d3f-9489-2953574fa03a</testCaseGuid>
+   <variable>
+      <defaultValue>'juryjack18@gmail.com'</defaultValue>
+      <description></description>
+      <id>5d55b6b7-8da9-436b-80bc-ebddada900b3</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'lsnworks'</defaultValue>
+      <description></description>
+      <id>8eeb81d2-0e00-422d-8073-e756f16ad828</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Checking whether the user is able to Publish a Post, by selecting a Twitter Profile from the &quot;Select Profile(S)&quot; popup and by entering Text and/or Link in the &quot;Enter Text And/Or Link To Be Published&quot; text field or not. '</defaultValue>
+      <description></description>
+      <id>9b5baeb9-c5a3-4b3f-ac14-5a8b8cb3b314</id>
+      <masked>false</masked>
+      <name>enterTextAndOrLink</name>
+   </variable>
+</TestCaseEntity>

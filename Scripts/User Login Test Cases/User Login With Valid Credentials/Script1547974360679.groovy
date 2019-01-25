@@ -21,18 +21,8 @@ WebUI.click(findTestObject('Object Repository/Login Page/Log In Button'))
 
 Thread.sleep(10000)
 
-/*
 String Windowtitle = WebUI.getWindowTitle()
 
 println Windowtitle
-*/
 
-WebUI.click("findTestObject('Object Repository/Engage Page/Header/Posts Tab In Header')")
 
-Thread.sleep(5000)
-
-WebUI.click("findTestObject('Object Repository/Posts Page/Create Dropdown Button')")
-
-WebUI.click("findTestObject('Object Repository/Posts Page/Create Post Option Of Create Dropdown')")
-
-Thread.sleep(10000)

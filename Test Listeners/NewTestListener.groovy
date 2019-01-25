@@ -10,11 +10,14 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.thoughtworks.selenium.Wait.WaitTimedOutException
+import com.thoughtworks.selenium.Wait
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 import internal.GlobalVariable as GlobalVariable
-
+import org.openqa.selenium.WebDriver
 import com.kms.katalon.core.annotation.BeforeTestCase
 import com.kms.katalon.core.annotation.BeforeTestSuite
 import com.kms.katalon.core.annotation.AfterTestCase
@@ -33,11 +36,13 @@ class NewTestListener
 	{
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseVariables()
-		WebUI.openBrowser('');
+		WebUI.openBrowser('')
+		WebDriver driver = DriverFactory.getWebDriver()
 		WebUI.maximizeWindow();
 		WebUI.deleteAllCookies()
 		WebUI.navigateToUrl(GlobalVariable.URL);
 		WebUI.waitForPageLoad(10000)
+		
 	}
 
 	/**
@@ -49,7 +54,8 @@ class NewTestListener
 	{
 		println testCaseContext.getTestCaseId()
 		println testCaseContext.getTestCaseStatus()
-		WebUI.closeBrowser()
+		Thread.sleep(10000)
+		//WebUI.closeBrowser()
 	}
 
 	/**

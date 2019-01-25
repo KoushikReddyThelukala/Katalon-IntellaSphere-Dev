@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Text And Or Link - Test Suite" time="239" tests="1" failures="0" errors="1">
+   <testsuite name="Text And Or Link - Test Suite" tests="1" failures="0" errors="1" time="239" timestamp="2019-01-24 10:47:25" hostname="koush - 192.168.1.204" id="Test Suites/Post Lab/Text And Or Link - Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\koush\\git\\Katalon-IntellaSphere-Dev\\Reports\\Post Lab\\Text And Or Link - Test Suite\\20190124_104718"/>
+         <property name="logFiles" value="C:\\Users\\koush\\git\\Katalon-IntellaSphere-Dev\\Reports\\Post Lab\\Text And Or Link - Test Suite\\20190124_104718\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\koush\\git\\Katalon-IntellaSphere-Dev\\Reports\\Post Lab\\Text And Or Link - Test Suite\\20190124_104718\\1548307139637.png"/>
+         <property name="hostName" value="koush - 192.168.1.204"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.204"/>
+         <property name="sessionId" value="fe60666f0312fe9cf1e227c35158e753"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Posts Lab/Text And Or Link/Test Case 1" classname="Test Cases/Posts Lab/Text And Or Link/Test Case 1" status="ERROR">
+         <error type="ERROR" message="Test Cases/Posts Lab/Text And Or Link/Test Case 1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Engage Page/Header/Posts Tab In Header' located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']' not found
+	at create.clickJS.invokeMethod(clickJS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Test Case 1.run(Test Case 1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548307039124.run(TempTestSuite1548307039124.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Engage Page/Header/Posts Tab In Header' located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1012)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at create.clickJS.clickJavaScript(clickJS.groovy:104)
+	at create.clickJS.invokeMethod(clickJS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1548264277974.run(Script1548264277974.groovy:24)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-01-24 10:47:28 - [TEST_CASE][ERROR] - Test Cases/Posts Lab/Text And Or Link/Test Case 1: Test Cases/Posts Lab/Text And Or Link/Test Case 1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Engage Page/Header/Posts Tab In Header' located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']' not found
+	at create.clickJS.invokeMethod(clickJS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Test Case 1.run(Test Case 1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548307039124.run(TempTestSuite1548307039124.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Engage Page/Header/Posts Tab In Header' located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1012)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at create.clickJS.clickJavaScript(clickJS.groovy:104)
+	at create.clickJS.invokeMethod(clickJS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1548264277974.run(Script1548264277974.groovy:24)
+	... 13 more
+
+
+2019-01-24 10:47:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Wait for page load successfully
+
+2019-01-24 10:47:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-24 10:47:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-01-24 10:47:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-24 10:47:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 10:47:30 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-24 10:47:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-24 10:47:58 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-01-24 10:47:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-24 10:47:59 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-24 10:47:59 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-01-24 10:48:00 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-01-24 10:48:00 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://dev.intellasphere.com/login-user' successfully
+
+2019-01-24 10:48:08 - [MESSAGE][PASSED] - Navigate to 'http://dev.intellasphere.com/login-user' successfully
+
+2019-01-24 10:48:08 - [TEST_STEP][PASSED] - waitForPageLoad(10000): Wait for page load successfully
+
+2019-01-24 10:48:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 10:48:09 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-24 10:48:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 10:48:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("User Login Test Cases/User Login With Valid Credentials"), ["Email":email, "Password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/User Login Test Cases/User Login With Valid Credentials' successfully
+
+2019-01-24 10:48:09 - [TEST_CASE][PASSED] - Test Cases/User Login Test Cases/User Login With Valid Credentials: Test Cases/User Login Test Cases/User Login With Valid Credentials
+
+2019-01-24 10:48:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Page/Username Text Field"), Email): Keys 'koushikreddy@lsnsoft.in' sent to object: 'Object Repository/Login Page/Username Text Field'
+
+2019-01-24 10:48:10 - [MESSAGE][PASSED] - Keys 'koushikreddy@lsnsoft.in' sent to object: 'Object Repository/Login Page/Username Text Field'
+
+2019-01-24 10:48:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Page/Password Text Field"), Password): Keys 'lsnworks' sent to object: 'Object Repository/Login Page/Password Text Field'
+
+2019-01-24 10:48:10 - [MESSAGE][PASSED] - Keys 'lsnworks' sent to object: 'Object Repository/Login Page/Password Text Field'
+
+2019-01-24 10:48:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/Log In Button")): Object: 'Object Repository/Login Page/Log In Button' is clicked on
+
+2019-01-24 10:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Log In Button' is clicked on
+
+2019-01-24 10:48:12 - [TEST_STEP][PASSED] - Thread.sleep(10000): null
+
+2019-01-24 10:48:22 - [TEST_STEP][PASSED] - Windowtitle = getWindowTitle(): Current window's title is: 'Login'
+
+2019-01-24 10:48:22 - [MESSAGE][PASSED] - Current window's title is: 'Login'
+
+2019-01-24 10:48:22 - [TEST_STEP][PASSED] - println(Windowtitle): null
+
+2019-01-24 10:48:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User Login Test Cases/User Login With Valid Credentials' successfully
+
+2019-01-24 10:48:22 - [TEST_STEP][ERROR] - create.clickJS.clickJavaScript(findTestObject("Engage Page/Header/Posts Tab In Header"), 5): create.clickJS.clickJavaScript(findTestObject("Engage Page/Header/Posts Tab In Header"), 5) FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Engage Page/Header/Posts Tab In Header' located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']' not found
+	at create.clickJS.invokeMethod(clickJS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Test Case 1.run(Test Case 1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548307039124.run(TempTestSuite1548307039124.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Engage Page/Header/Posts Tab In Header' located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1012)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at create.clickJS.clickJavaScript(clickJS.groovy:104)
+	at create.clickJS.invokeMethod(clickJS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1548264277974.run(Script1548264277974.groovy:24)
+	... 13 more
+
+
+2019-01-24 10:48:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-24 10:48:28 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Engage Page/Header/Posts Tab In Header' located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']' not found
+
+2019-01-24 10:48:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-24 10:49:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Engage Page/Header/Posts Tab In Header' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Engage Page/Header/Posts Tab In Header' located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']' not found)
+[[ATTACHMENT|C:\\Users\\koush\\git\\Katalon-IntellaSphere-Dev\\Reports\\Post Lab\\Text And Or Link - Test Suite\\20190124_104718\\1548307139637.png]]
+
+2019-01-24 10:49:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-24 10:49:05 - [MESSAGE][ERROR] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Engage Page/Header/Posts Tab In Header' located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']' not found
+
+2019-01-24 10:49:05 - [MESSAGE][ERROR] - create.clickJS.clickJavaScript(findTestObject("Engage Page/Header/Posts Tab In Header"), 5) FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Engage Page/Header/Posts Tab In Header' located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']' not found
+	at create.clickJS.invokeMethod(clickJS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Test Case 1.run(Test Case 1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548307039124.run(TempTestSuite1548307039124.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Engage Page/Header/Posts Tab In Header' located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1012)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at create.clickJS.clickJavaScript(clickJS.groovy:104)
+	at create.clickJS.invokeMethod(clickJS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1548264277974.run(Script1548264277974.groovy:24)
+	... 13 more
+
+
+2019-01-24 10:49:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-24 10:49:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-24 10:49:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2019-01-24 10:49:06 - [TEST_STEP][PASSED] - Thread.sleep(10000): null]]></system-out>
+         <system-err><![CDATA[2019-01-24 10:47:28 - [TEST_CASE][ERROR] - Test Cases/Posts Lab/Text And Or Link/Test Case 1: Test Cases/Posts Lab/Text And Or Link/Test Case 1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Engage Page/Header/Posts Tab In Header' located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']' not found
+	at create.clickJS.invokeMethod(clickJS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Test Case 1.run(Test Case 1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548307039124.run(TempTestSuite1548307039124.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Engage Page/Header/Posts Tab In Header' located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1012)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at create.clickJS.clickJavaScript(clickJS.groovy:104)
+	at create.clickJS.invokeMethod(clickJS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1548264277974.run(Script1548264277974.groovy:24)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Posts Lab/Text And Or Link/Test Case 1" classname="Test Cases/Posts Lab/Text And Or Link/Test Case 1" status="PASSED">
+         <system-out><![CDATA[2019-01-24 10:49:16 - [TEST_CASE][PASSED] - Test Cases/Posts Lab/Text And Or Link/Test Case 1: Test Cases/Posts Lab/Text And Or Link/Test Case 1
+
+2019-01-24 10:49:16 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Wait for page load successfully
+
+2019-01-24 10:49:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-24 10:49:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-01-24 10:49:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-24 10:49:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-24 10:49:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 10:49:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-24 10:49:41 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-01-24 10:49:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-24 10:49:42 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-24 10:49:42 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-01-24 10:49:42 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-01-24 10:49:42 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://dev.intellasphere.com/login-user' successfully
+
+2019-01-24 10:49:49 - [MESSAGE][PASSED] - Navigate to 'http://dev.intellasphere.com/login-user' successfully
+
+2019-01-24 10:49:49 - [TEST_STEP][PASSED] - waitForPageLoad(10000): Wait for page load successfully
+
+2019-01-24 10:49:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 10:49:49 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-24 10:49:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-24 10:49:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("User Login Test Cases/User Login With Valid Credentials"), ["Email":email, "Password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/User Login Test Cases/User Login With Valid Credentials' successfully
+
+2019-01-24 10:49:49 - [TEST_CASE][PASSED] - Test Cases/User Login Test Cases/User Login With Valid Credentials: Test Cases/User Login Test Cases/User Login With Valid Credentials
+
+2019-01-24 10:49:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Page/Username Text Field"), Email): Keys 'juryjack18@gmail.com' sent to object: 'Object Repository/Login Page/Username Text Field'
+
+2019-01-24 10:49:50 - [MESSAGE][PASSED] - Keys 'juryjack18@gmail.com' sent to object: 'Object Repository/Login Page/Username Text Field'
+
+2019-01-24 10:49:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Page/Password Text Field"), Password): Keys 'lsnworks' sent to object: 'Object Repository/Login Page/Password Text Field'
+
+2019-01-24 10:49:50 - [MESSAGE][PASSED] - Keys 'lsnworks' sent to object: 'Object Repository/Login Page/Password Text Field'
+
+2019-01-24 10:49:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/Log In Button")): Object: 'Object Repository/Login Page/Log In Button' is clicked on
+
+2019-01-24 10:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Log In Button' is clicked on
+
+2019-01-24 10:50:20 - [TEST_STEP][PASSED] - Thread.sleep(10000): null
+
+2019-01-24 10:50:30 - [TEST_STEP][PASSED] - Windowtitle = getWindowTitle(): Current window's title is: 'Communications | LSN'
+
+2019-01-24 10:50:30 - [MESSAGE][PASSED] - Current window's title is: 'Communications | LSN'
+
+2019-01-24 10:50:30 - [TEST_STEP][PASSED] - println(Windowtitle): null
+
+2019-01-24 10:50:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/User Login Test Cases/User Login With Valid Credentials' successfully
+
+2019-01-24 10:50:30 - [TEST_STEP][PASSED] - create.clickJS.clickJavaScript(findTestObject("Engage Page/Header/Posts Tab In Header"), 5): create.clickJS.clickJavaScript is PASSED
+
+2019-01-24 10:50:30 - [MESSAGE][PASSED] - Object 'Object Repository/Engage Page/Header/Posts Tab In Header' is visible
+
+2019-01-24 10:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Engage Page/Header/Posts Tab In Header' is clicked on
+
+2019-01-24 10:50:31 - [MESSAGE][PASSED] - create.clickJS.clickJavaScript is PASSED
+
+2019-01-24 10:50:31 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-01-24 10:50:34 - [TEST_STEP][PASSED] - create.clickJS.clickJavaScript(findTestObject("Object Repository/Posts Page/Create Dropdown Button"), 5): create.clickJS.clickJavaScript is PASSED
+
+2019-01-24 10:50:35 - [MESSAGE][PASSED] - Object 'Object Repository/Posts Page/Create Dropdown Button' is visible
+
+2019-01-24 10:50:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Posts Page/Create Dropdown Button' is clicked on
+
+2019-01-24 10:50:35 - [MESSAGE][PASSED] - create.clickJS.clickJavaScript is PASSED
+
+2019-01-24 10:50:35 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-01-24 10:50:38 - [TEST_STEP][PASSED] - create.clickJS.clickJavaScript(findTestObject("Object Repository/Posts Page/Create Post Option Of Create Dropdown"), 5): create.clickJS.clickJavaScript is PASSED
+
+2019-01-24 10:50:38 - [MESSAGE][PASSED] - Object 'Object Repository/Posts Page/Create Post Option Of Create Dropdown' is visible
+
+2019-01-24 10:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Posts Page/Create Post Option Of Create Dropdown' is clicked on
+
+2019-01-24 10:50:45 - [MESSAGE][PASSED] - create.clickJS.clickJavaScript is PASSED
+
+2019-01-24 10:50:45 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-01-24 10:50:48 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Posts Page/Create Posts/ORs Of Create Text OR URL Post/iframe Of Create Content Popup"), 5): null
+
+2019-01-24 10:50:48 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-01-24 10:50:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Posts Page/Create Posts/Facebook Profiles/Sathyapage")): Object: 'Object Repository/Posts Page/Create Posts/Facebook Profiles/Sathyapage' is clicked on
+
+2019-01-24 10:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Posts Page/Create Posts/Facebook Profiles/Sathyapage' is clicked on
+
+2019-01-24 10:50:51 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-01-24 10:50:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/Ok Button Of Select Profile(S) Popup")): Object: 'Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/Ok Button Of Select Profile(S) Popup' is clicked on
+
+2019-01-24 10:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/Ok Button Of Select Profile(S) Popup' is clicked on
+
+2019-01-24 10:50:55 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-01-24 10:50:58 - [TEST_STEP][PASSED] - setText(findTestObject("Posts Page/Create Posts/ORs Of Create Text OR URL Post/Enter Text And Or Links To Be Published Text Field"), enterTextAndOrLink): Text 'user exists' is set on object 'Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/Enter Text And Or Links To Be Published Text Field'
+
+2019-01-24 10:50:58 - [MESSAGE][PASSED] - Text 'user exists' is set on object 'Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/Enter Text And Or Links To Be Published Text Field'
+
+2019-01-24 10:50:58 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-01-24 10:51:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Posts Page/Create Posts/ORs Of Create Text OR URL Post/Submit Button Of Create Text And Or Link To Be Published"), 5, STOP_ON_FAILURE): Object 'Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/Submit Button Of Create Text And Or Link To Be Published' is present
+
+2019-01-24 10:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/Submit Button Of Create Text And Or Link To Be Published' is present
+
+2019-01-24 10:51:02 - [TEST_STEP][PASSED] - click(findTestObject("Posts Page/Create Posts/ORs Of Create Text OR URL Post/Submit Button Of Create Text And Or Link To Be Published")): Object: 'Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/Submit Button Of Create Text And Or Link To Be Published' is clicked on
+
+2019-01-24 10:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/Submit Button Of Create Text And Or Link To Be Published' is clicked on
+
+2019-01-24 10:51:03 - [TEST_STEP][PASSED] - Thread.sleep(10000): null
+
+2019-01-24 10:51:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/Do You Want To Publish This Post Popup/Yes")): Object: 'Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/Do You Want To Publish This Post Popup/Yes' is clicked on
+
+2019-01-24 10:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/Do You Want To Publish This Post Popup/Yes' is clicked on
+
+2019-01-24 10:51:13 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-24 10:51:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-24 10:51:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2019-01-24 10:51:13 - [TEST_STEP][PASSED] - Thread.sleep(10000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-24 10:47:25 - [TEST_SUITE][ERROR] - Text And Or Link - Test Suite: Test Cases/Posts Lab/Text And Or Link/Test Case 1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Engage Page/Header/Posts Tab In Header' located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']' not found
+	at create.clickJS.invokeMethod(clickJS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Test Case 1.run(Test Case 1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548307039124.run(TempTestSuite1548307039124.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Engage Page/Header/Posts Tab In Header' located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1012)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at create.clickJS.clickJavaScript(clickJS.groovy:104)
+	at create.clickJS.invokeMethod(clickJS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1548264277974.run(Script1548264277974.groovy:24)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-01-24 10:47:25 - [TEST_SUITE][ERROR] - Text And Or Link - Test Suite: Test Cases/Posts Lab/Text And Or Link/Test Case 1 FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Engage Page/Header/Posts Tab In Header' located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']' not found
+	at create.clickJS.invokeMethod(clickJS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Test Case 1.run(Test Case 1:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548307039124.run(TempTestSuite1548307039124.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Engage Page/Header/Posts Tab In Header' located by 'By.xpath: //span[@id='ES_creativelabTab-btnWrap']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1012)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper$findWebElement.call(Unknown Source)
+	at create.clickJS.clickJavaScript(clickJS.groovy:104)
+	at create.clickJS.invokeMethod(clickJS.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1548264277974.run(Script1548264277974.groovy:24)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

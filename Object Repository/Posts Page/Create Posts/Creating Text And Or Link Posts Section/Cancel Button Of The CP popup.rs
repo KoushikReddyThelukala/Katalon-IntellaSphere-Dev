@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Cancel Button Of The CP popup</name>
+   <tag></tag>
+   <elementGuidId>659d9162-3ac4-4ba6-a298-83337f71632d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='Cancel']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>closeCreatePostWindow()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default float-right post-btn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-value</name>
+      <type>Main</type>
+      <value>((!isPollView() &amp;&amp; pollActiveTab === 3) || (!isSurveyView() &amp;&amp; survey.surveyActiveTab === 3) || (!isOffersView() &amp;&amp; offers.offerActiveTab === 3) || (!isBannerAdView() &amp;&amp; bannerAds.bannerActiveTab === 3) || (!isReviewsView() &amp;&amp; reviews.reviewActiveTab === 3) || (!isContactUsView() &amp;&amp; contactForm.contactFormActiveTab === 3) || (!isFeedbackView() &amp;&amp; feedback.feedbackActiveTab === 3) || (!isNLSubscriptionView() &amp;&amp; NLSubscription.newsLetterActiveTab === 3) || (!isRsvpView() &amp;&amp; rsvpForm.rsvpFormActiveTab === 3) || (!isEventsView() &amp;&amp; events.eventActiveTab === 3) || (!isnewsLetterView() &amp;&amp; newsLetter.newsLetterActiveTab === 3)) ? 'Close':'Cancel'</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Cancel</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;uiview&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;tabContainer&quot;]/div[@class=&quot;right-pane&quot;]/div[@class=&quot;footer&quot;]/div[@class=&quot;clear create-post-actions border create-post-action-footer&quot;]/div[@class=&quot;footer-action-view&quot;]/input[@class=&quot;btn btn-default float-right post-btn&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Posts Page/Create Posts/Creating Text And Or Link Posts Section/iframe Of Create Content Popup</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//input[@value='Cancel']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//section[@id='uiview']/div/div/div[2]/div[5]/div[2]/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notes'])[1]/following::input[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Geo Target'])[1]/following::input[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div/input</value>
+   </webElementXpaths>
+</WebElementEntity>

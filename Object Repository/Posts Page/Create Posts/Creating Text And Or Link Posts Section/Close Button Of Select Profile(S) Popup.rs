@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Posts Tab In Header</name>
+   <name>Close Button Of Select Profile(S) Popup</name>
    <tag></tag>
-   <elementGuidId>ec8bb32d-a0c2-4171-9af7-5e699cd4dcb3</elementGuidId>
+   <elementGuidId>695d97ce-d28b-4675-a4e5-381306677612</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//span[@id='ES_creativelabTab-btnWrap']</value>
+         <key>XPATH</key>
+         <value>//section[@id='uiview']/div/div/div[2]/div[3]/div[2]/div/form/div/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='ES_creativelabTab-btnEl']</value>
+         <key>BASIC</key>
+         <value>//span[@ng-click='onFooterTabClose()' and @class='popoverClose'][count(. | //*[@ref_element = 'Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/iframe Of Create Content Popup']) = count(//*[@ref_element = 'Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/iframe Of Create Content Popup'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,65 +26,65 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>ng-click</name>
       <type>Main</type>
-      <value>ES_creativelabTab-btnWrap</value>
+      <value>onFooterTabClose()</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>x-btn-wrap</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Posts </value>
+      <value>popoverClose</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[@id='ES_creativelabTab-btnWrap']</value>
+      <value>//span[@ng-click='onFooterTabClose()' and @class='popoverClose']</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Posts Page/Create Posts/Creating Text And Or Link Posts Section/iframe Of Create Content Popup</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <value>//span[@id='ES_creativelabTab-btnEl']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//span[@id='ES_creativelabTab-btnWrap']/span</value>
+      <value>//section[@id='uiview']/div/div/div[2]/div[3]/div[2]/div/form/div/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Engage'])[1]/following::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Address Info'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear Filters'])[7]/following::span[27]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='From Info'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Communications'])[1]/preceding::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select profile(s) to post content'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select blog to post content'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div/span/div/div/div/div/a[3]/span/span</value>
+      <value>//form/div/span</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Text And Or Link - Test Suite,Chrome 71.0.3578.98,,2019-01-24 10:47:25,2019-01-24 10:51:24,3m - 59.304s,ERROR
+,,,,,,
+Test Cases/Posts Lab/Text And Or Link/Test Case 1,Chrome 71.0.3578.98,"Checking whether the user is able to Publish a Post, by selecting a Facebook Profile from the ""Select Profile(S)"" popup and by entering Text and/or Link in the ""Enter Text And/Or Link To Be Published"" text field or not.",2019-01-24 10:47:28,2019-01-24 10:49:16,1m - 47.610s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-24 10:47:28,2019-01-24 10:48:08,40.250s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.98,Waiting Until The Page Gets Loaded.,2019-01-24 10:48:09,2019-01-24 10:48:09,0.039s,PASSED
+"callTestCase(findTestCase(""User Login Test Cases/User Login With Valid Credentials""), [""Email"":email, ""Password"":password], STOP_ON_FAILURE)",Chrome 71.0.3578.98,"Calling The ""User Login With Valid Credentials"" Test Case To This Test Case",2019-01-24 10:48:09,2019-01-24 10:48:22,13.013s,PASSED
+"create.clickJS.clickJavaScript(findTestObject(""Engage Page/Header/Posts Tab In Header""), 5)",Chrome 71.0.3578.98,"Clicking the ""Posts"" Tab in Header with the JScript.",2019-01-24 10:48:22,2019-01-24 10:49:05,43.348s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-24 10:49:05,2019-01-24 10:49:16,10.019s,PASSED
+,,,,,,
+Test Cases/Posts Lab/Text And Or Link/Test Case 1,Chrome 71.0.3578.98,"Checking whether the user is able to Publish a Post, by selecting a Facebook Profile from the ""Select Profile(S)"" popup and by entering Text and/or Link in the ""Enter Text And/Or Link To Be Published"" text field or not.",2019-01-24 10:49:16,2019-01-24 10:51:23,2m - 7.319s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-24 10:49:16,2019-01-24 10:49:49,33.412s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.98,Waiting Until The Page Gets Loaded.,2019-01-24 10:49:49,2019-01-24 10:49:49,0.013s,PASSED
+"callTestCase(findTestCase(""User Login Test Cases/User Login With Valid Credentials""), [""Email"":email, ""Password"":password], STOP_ON_FAILURE)",Chrome 71.0.3578.98,"Calling The ""User Login With Valid Credentials"" Test Case To This Test Case",2019-01-24 10:49:49,2019-01-24 10:50:30,40.873s,PASSED
+"create.clickJS.clickJavaScript(findTestObject(""Engage Page/Header/Posts Tab In Header""), 5)",Chrome 71.0.3578.98,"Clicking the ""Posts"" Tab in Header with the JScript.",2019-01-24 10:50:30,2019-01-24 10:50:31,1.327s,PASSED
+Thread.sleep(3000),Chrome 71.0.3578.98,,2019-01-24 10:50:31,2019-01-24 10:50:34,3.001s,PASSED
+"create.clickJS.clickJavaScript(findTestObject(""Object Repository/Posts Page/Create Dropdown Button""), 5)",Chrome 71.0.3578.98,"Clicking on the ""Create"" button.",2019-01-24 10:50:34,2019-01-24 10:50:35,0.289s,PASSED
+Thread.sleep(3000),Chrome 71.0.3578.98,,2019-01-24 10:50:35,2019-01-24 10:50:38,3.003s,PASSED
+"create.clickJS.clickJavaScript(findTestObject(""Object Repository/Posts Page/Create Post Option Of Create Dropdown""), 5)",Chrome 71.0.3578.98,"Clicking The ""Create Post"" Option Of ""Create"" Dropdown.",2019-01-24 10:50:38,2019-01-24 10:50:45,7.105s,PASSED
+Thread.sleep(3000),Chrome 71.0.3578.98,,2019-01-24 10:50:45,2019-01-24 10:50:48,3.003s,PASSED
+"switchToFrame(findTestObject(""Posts Page/Create Posts/ORs Of Create Text OR URL Post/iframe Of Create Content Popup""), 5)",Chrome 71.0.3578.98,Switching To The Create Content Popup iFrame.,2019-01-24 10:50:48,2019-01-24 10:50:48,0.196s,PASSED
+Thread.sleep(3000),Chrome 71.0.3578.98,,2019-01-24 10:50:48,2019-01-24 10:50:51,3.002s,PASSED
+"click(findTestObject(""Object Repository/Posts Page/Create Posts/Facebook Profiles/Sathyapage""))",Chrome 71.0.3578.98,"Selecting the ""Sathyapage"" Facebook profile in the ""Select Profile(S)"" popup.",2019-01-24 10:50:51,2019-01-24 10:50:51,0.350s,PASSED
+Thread.sleep(3000),Chrome 71.0.3578.98,,2019-01-24 10:50:51,2019-01-24 10:50:54,3.022s,PASSED
+"click(findTestObject(""Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/Ok Button Of Select Profile(S) Popup""))",Chrome 71.0.3578.98,,2019-01-24 10:50:54,2019-01-24 10:50:55,0.296s,PASSED
+Thread.sleep(3000),Chrome 71.0.3578.98,,2019-01-24 10:50:55,2019-01-24 10:50:58,3.003s,PASSED
+"setText(findTestObject(""Posts Page/Create Posts/ORs Of Create Text OR URL Post/Enter Text And Or Links To Be Published Text Field""), enterTextAndOrLink)",Chrome 71.0.3578.98,"Sending keys to the ""Enter text and/or link to be published"" text field",2019-01-24 10:50:58,2019-01-24 10:50:58,0.769s,PASSED
+Thread.sleep(3000),Chrome 71.0.3578.98,,2019-01-24 10:50:58,2019-01-24 10:51:01,3.002s,PASSED
+"waitForElementPresent(findTestObject(""Posts Page/Create Posts/ORs Of Create Text OR URL Post/Submit Button Of Create Text And Or Link To Be Published""), 5, STOP_ON_FAILURE)",Chrome 71.0.3578.98,"Wait for the ""Submit"" button(element) to present/appear within the given time in second unit.",2019-01-24 10:51:01,2019-01-24 10:51:02,0.168s,PASSED
+"click(findTestObject(""Posts Page/Create Posts/ORs Of Create Text OR URL Post/Submit Button Of Create Text And Or Link To Be Published""))",Chrome 71.0.3578.98,"Clicking on the ""Submit"" button of the ""Create Post"" popup.",2019-01-24 10:51:02,2019-01-24 10:51:03,1.070s,PASSED
+Thread.sleep(10000),Chrome 71.0.3578.98,,2019-01-24 10:51:03,2019-01-24 10:51:13,10.003s,PASSED
+"click(findTestObject(""Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/Do You Want To Publish This Post Popup/Yes""))",Chrome 71.0.3578.98,"Clicking on the ""Yes"" button of the ""Do You Want To Publish This Post"" Popup.",2019-01-24 10:51:13,2019-01-24 10:51:13,0.218s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-24 10:51:13,2019-01-24 10:51:23,10.004s,PASSED

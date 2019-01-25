@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checking whether the user is able to Publish a Post, by selecting all Profile's from the &quot;Select Profile(S)&quot; popup and by entering Text and/or Link in the &quot;Enter Text And/Or Link To Be Published&quot; text field or not.</description>
+   <name>Test Case 5</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>438545c9-61f6-4fee-84ef-00a8a525c813</testCaseGuid>
+   <variable>
+      <defaultValue>'juryjack18@gmail.com'</defaultValue>
+      <description></description>
+      <id>04d7a3b8-a9ef-4190-b419-dbfa49eedfdc</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'lsnworks'</defaultValue>
+      <description></description>
+      <id>dac2e56f-6532-4d32-9f1f-51d05d771fc1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Checking whether the user is able to Publish a Post, by selecting all Profile\'s from the &quot;Select Profile(S)&quot; popup and by entering Text and/or Link in the &quot;Enter Text And/Or Link To Be Published&quot; text field or not. '</defaultValue>
+      <description></description>
+      <id>7c41ceaa-c082-434b-9ed9-b6c94c01fc02</id>
+      <masked>false</masked>
+      <name>enterTextAndOrLink</name>
+   </variable>
+</TestCaseEntity>

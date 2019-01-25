@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Submit Button Of Create Text And Or Link To Be Published</name>
+   <tag></tag>
+   <elementGuidId>7277bd94-24d1-4141-9303-cb2d72976f7d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type='button' and @ng-if='!isReadOnlyField() &amp;&amp; isPollView() &amp;&amp; isSurveyView() &amp;&amp; isnewsLetterView() &amp;&amp; isNLSubscriptionView() &amp;&amp; isOffersView() &amp;&amp; isBannerAdView() &amp;&amp; isReviewsView() &amp;&amp; isFeedbackView() &amp;&amp; isContactUsView() &amp;&amp; isBulkEmailView() &amp;&amp; isDirectMsgView() &amp;&amp; isEventsView() &amp;&amp; isRsvpView()'][count(. | //*[@ref_element = 'Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/iframe Of Create Content Popup']) = count(//*[@ref_element = 'Object Repository/Posts Page/Create Posts/ORs Of Create Text OR URL Post/iframe Of Create Content Popup'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='Submit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>submitForm('Scheduled', 'update')</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-hide</name>
+      <type>Main</type>
+      <value>(isAssignedView() &amp;&amp; isEnableUpdateAndAcceptBtns() &amp;&amp; fromDistribute === '' &amp;&amp; !assignUser.isCloseAction) || (assignUser.isCloseAction &amp;&amp; assignUser.id)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default float-right post-btn ISPrimaryBtn ng-scope</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>!isReadOnlyField() &amp;&amp; isPollView() &amp;&amp; isSurveyView() &amp;&amp; isnewsLetterView() &amp;&amp; isNLSubscriptionView() &amp;&amp; isOffersView() &amp;&amp; isBannerAdView() &amp;&amp; isReviewsView() &amp;&amp; isFeedbackView() &amp;&amp; isContactUsView() &amp;&amp; isBulkEmailView() &amp;&amp; isDirectMsgView() &amp;&amp; isEventsView() &amp;&amp; isRsvpView()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-value</name>
+      <type>Main</type>
+      <value>isTemplateEnable ? 'Save Template' : ((postContent.multipleSchedule &amp;&amp; postContent.multipleSchedule.length!= 0 &amp;&amp; checkScheduledDateIsGreaterThanCurrentDate()) || postContent.scheduledDate) ? campaignId ? postType === 'edit' ? 'Update to Campaign' : 'Add to Campaign' : 'Schedule' : ((currentTab.indexOf('contactUs.html') != -1 &amp;&amp; (!isContactUsView() &amp;&amp; contactForm.contactFormActiveTab === 3)) || (currentTab.indexOf('feedbackForm.html') != -1 &amp;&amp; (!isFeedbackView() &amp;&amp; feedback.feedbackActiveTab === 3)) || currentTab.indexOf('reviews.html') != -1 || currentTab.indexOf('bulk_Email.html') != -1 || currentTab.indexOf('bulk_Email.html') != -1 || currentTab.indexOf('socialbanner.html') != -1) ? (postType === 'edit' ? campaignId ? 'Update to Camapign' : 'Update' : campaignId ? 'Add to Camapign' :'Create')  : (actionType === 'share')? 'Post Now':'Submit' </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>isDisableSubmitBtn()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@type='button' and @ng-if='!isReadOnlyField() &amp;&amp; isPollView() &amp;&amp; isSurveyView() &amp;&amp; isnewsLetterView() &amp;&amp; isNLSubscriptionView() &amp;&amp; isOffersView() &amp;&amp; isBannerAdView() &amp;&amp; isReviewsView() &amp;&amp; isFeedbackView() &amp;&amp; isContactUsView() &amp;&amp; isBulkEmailView() &amp;&amp; isDirectMsgView() &amp;&amp; isEventsView() &amp;&amp; isRsvpView()']</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//input[@value='Submit']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//section[@id='uiview']/div/div/div[2]/div[5]/div[3]/div/input[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notes'])[1]/following::input[7]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Geo Target'])[1]/following::input[7]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//input[4]</value>
+   </webElementXpaths>
+</WebElementEntity>

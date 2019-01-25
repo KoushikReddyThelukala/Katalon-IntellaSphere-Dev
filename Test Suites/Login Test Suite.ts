@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Login</name>
+   <name>Login Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-20T23:46:41</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -18,21 +17,21 @@
       <testCaseId>Test Cases/User Login Test Cases/User Login With Invalid Credentials</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>ef9d8048-c70a-4cf8-aabd-f2868a5b0b3e</id>
+         <id>d2161b3e-07d8-4216-bde2-0139bba5ce4b</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Login/Internal Data Files/ID - Invalid Login User Credentials Data</testDataId>
+         <testDataId>Data Files/Login/Development/Internal Data Files/ID - Invalid Login User Credentials Data</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>ef9d8048-c70a-4cf8-aabd-f2868a5b0b3e</testDataLinkId>
+         <testDataLinkId>d2161b3e-07d8-4216-bde2-0139bba5ce4b</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Email</value>
          <variableId>6c50f103-6484-4ecd-872a-26c5e42be934</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ef9d8048-c70a-4cf8-aabd-f2868a5b0b3e</testDataLinkId>
+         <testDataLinkId>d2161b3e-07d8-4216-bde2-0139bba5ce4b</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>21c2e800-227e-4518-8ac6-65da3ed03ff8</variableId>
@@ -45,21 +44,21 @@
       <testCaseId>Test Cases/User Login Test Cases/User Login With Null Credentials</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>c7fbcec7-930d-42d2-91a0-a1592c554fd8</id>
+         <id>2be92d33-5dea-4f7a-aed7-475d3b4456b4</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Login/Internal Data Files/ID - Null Login User Credentials</testDataId>
+         <testDataId>Data Files/Login/Development/Internal Data Files/ID - Null Login User Credentials</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>c7fbcec7-930d-42d2-91a0-a1592c554fd8</testDataLinkId>
+         <testDataLinkId>2be92d33-5dea-4f7a-aed7-475d3b4456b4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Email</value>
          <variableId>76e14032-0224-4c96-97eb-8a757d8c2d61</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c7fbcec7-930d-42d2-91a0-a1592c554fd8</testDataLinkId>
+         <testDataLinkId>2be92d33-5dea-4f7a-aed7-475d3b4456b4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>043e6f2d-257b-49fb-99ae-b14018da1d52</variableId>
@@ -72,21 +71,21 @@
       <testCaseId>Test Cases/User Login Test Cases/User Login With Valid Credentials</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>70e0a32e-19f9-4c59-a966-c6fa1b3c0daa</id>
+         <id>b82aa90f-db5b-42a2-bd97-cf9a3c5b8392</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Login/Internal Data Files/ID - Valid Login User Credentials Data</testDataId>
+         <testDataId>Data Files/Login/Development/Internal Data Files/ID - Valid Login User Credentials Data</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>70e0a32e-19f9-4c59-a966-c6fa1b3c0daa</testDataLinkId>
+         <testDataLinkId>b82aa90f-db5b-42a2-bd97-cf9a3c5b8392</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Email</value>
          <variableId>44e467b7-ffdd-4c28-9e7a-01d2b85477b7</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>70e0a32e-19f9-4c59-a966-c6fa1b3c0daa</testDataLinkId>
+         <testDataLinkId>b82aa90f-db5b-42a2-bd97-cf9a3c5b8392</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Password</value>
          <variableId>d98e364e-8759-4f81-920e-ae0437ae38e5</variableId>

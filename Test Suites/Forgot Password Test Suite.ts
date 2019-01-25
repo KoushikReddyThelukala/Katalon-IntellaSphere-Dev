@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Posts</name>
+   <name>Forgot Password Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,5 +9,5 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>0aa1434e-6dad-45cd-b757-fa4c2a46481f</testSuiteGuid>
+   <testSuiteGuid>c241e706-195e-49af-a328-5a7e2eabd63d</testSuiteGuid>
 </TestSuiteEntity>

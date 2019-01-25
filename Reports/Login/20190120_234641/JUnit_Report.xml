@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="401" tests="4" failures="1" errors="0">
+   <testsuite name="Login" tests="4" failures="1" errors="0" time="401" timestamp="2019-01-20 23:46:49" hostname="koush - LAPTOP-4TAL083P" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\koush\\git\\Katalon-IntellaSphere-Dev\\Reports\\Login\\20190120_234641"/>
+         <property name="logFiles" value="C:\\Users\\koush\\git\\Katalon-IntellaSphere-Dev\\Reports\\Login\\20190120_234641\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\koush\\git\\Katalon-IntellaSphere-Dev\\Reports\\Login\\20190120_234641\\1548008480611.png"/>
+         <property name="hostName" value="koush - LAPTOP-4TAL083P"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.0.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.0.18"/>
+         <property name="sessionId" value="d8510661df75a072aacdeb2e53540369"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User Login Test Cases/User Login With Invalid Credentials" classname="Test Cases/User Login Test Cases/User Login With Invalid Credentials" status="PASSED">
+         <system-out><![CDATA[2019-01-20 23:46:51 - [TEST_CASE][PASSED] - Test Cases/User Login Test Cases/User Login With Invalid Credentials: Test Cases/User Login Test Cases/User Login With Invalid Credentials
+
+2019-01-20 23:46:51 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Wait for page load successfully
+
+2019-01-20 23:46:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-20 23:46:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-01-20 23:46:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-20 23:46:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-20 23:46:53 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-20 23:47:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-20 23:47:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-20 23:47:23 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-20 23:47:23 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-01-20 23:47:23 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-01-20 23:47:23 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://dev.intellasphere.com/login-user' successfully
+
+2019-01-20 23:47:28 - [MESSAGE][PASSED] - Navigate to 'http://dev.intellasphere.com/login-user' successfully
+
+2019-01-20 23:47:28 - [TEST_STEP][PASSED] - waitForPageLoad(10000): Wait for page load successfully
+
+2019-01-20 23:47:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-20 23:47:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Page/EmailUsername Text Field"), Email): Keys 'juryjack18' sent to object: 'tempBody'
+
+2019-01-20 23:47:28 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Login Page/EmailUsername Text Field' does not exist
+
+2019-01-20 23:47:29 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-01-20 23:47:29 - [MESSAGE][PASSED] - Keys 'juryjack18' sent to object: 'tempBody'
+
+2019-01-20 23:47:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Page/Password Text Field"), Password): Keys 'lsnworks' sent to object: 'Object Repository/Login Page/Password Text Field'
+
+2019-01-20 23:47:29 - [MESSAGE][PASSED] - Keys 'lsnworks' sent to object: 'Object Repository/Login Page/Password Text Field'
+
+2019-01-20 23:47:29 - [TEST_STEP][PASSED] - Thread.sleep(10000): null
+
+2019-01-20 23:47:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/Log In Button")): Object: 'Object Repository/Login Page/Log In Button' is clicked on
+
+2019-01-20 23:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Log In Button' is clicked on
+
+2019-01-20 23:47:45 - [TEST_STEP][PASSED] - Thread.sleep(10000): null
+
+2019-01-20 23:47:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-01-20 23:47:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-20 23:47:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2019-01-20 23:47:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-20 23:47:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Login Test Cases/User Login With Invalid Credentials" classname="Test Cases/User Login Test Cases/User Login With Invalid Credentials" status="PASSED">
+         <system-out><![CDATA[2019-01-20 23:47:56 - [TEST_CASE][PASSED] - Test Cases/User Login Test Cases/User Login With Invalid Credentials: Test Cases/User Login Test Cases/User Login With Invalid Credentials
+
+2019-01-20 23:47:56 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Wait for page load successfully
+
+2019-01-20 23:47:56 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-20 23:47:56 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-01-20 23:47:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-20 23:47:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-20 23:48:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-20 23:48:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-20 23:48:22 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-20 23:48:22 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-01-20 23:48:22 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-01-20 23:48:22 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://dev.intellasphere.com/login-user' successfully
+
+2019-01-20 23:48:27 - [MESSAGE][PASSED] - Navigate to 'http://dev.intellasphere.com/login-user' successfully
+
+2019-01-20 23:48:27 - [TEST_STEP][PASSED] - waitForPageLoad(10000): Wait for page load successfully
+
+2019-01-20 23:48:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-20 23:48:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Page/EmailUsername Text Field"), Email): Keys 'juryjack18@email.com' sent to object: 'tempBody'
+
+2019-01-20 23:48:27 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Login Page/EmailUsername Text Field' does not exist
+
+2019-01-20 23:48:27 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-01-20 23:48:27 - [MESSAGE][PASSED] - Keys 'juryjack18@email.com' sent to object: 'tempBody'
+
+2019-01-20 23:48:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Page/Password Text Field"), Password): Keys 'lsnworks' sent to object: 'Object Repository/Login Page/Password Text Field'
+
+2019-01-20 23:48:27 - [MESSAGE][PASSED] - Keys 'lsnworks' sent to object: 'Object Repository/Login Page/Password Text Field'
+
+2019-01-20 23:48:27 - [TEST_STEP][PASSED] - Thread.sleep(10000): null
+
+2019-01-20 23:48:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/Log In Button")): Object: 'Object Repository/Login Page/Log In Button' is clicked on
+
+2019-01-20 23:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Log In Button' is clicked on
+
+2019-01-20 23:48:44 - [TEST_STEP][PASSED] - Thread.sleep(10000): null
+
+2019-01-20 23:48:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-01-20 23:48:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-20 23:48:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2019-01-20 23:48:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-20 23:48:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Login Test Cases/User Login With Invalid Credentials" classname="Test Cases/User Login Test Cases/User Login With Invalid Credentials" status="PASSED">
+         <system-out><![CDATA[2019-01-20 23:48:55 - [TEST_CASE][PASSED] - Test Cases/User Login Test Cases/User Login With Invalid Credentials: Test Cases/User Login Test Cases/User Login With Invalid Credentials
+
+2019-01-20 23:48:55 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Wait for page load successfully
+
+2019-01-20 23:48:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-20 23:48:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-01-20 23:48:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-20 23:48:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-20 23:49:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-20 23:49:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-20 23:49:21 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-20 23:49:21 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-01-20 23:49:21 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-01-20 23:49:21 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://dev.intellasphere.com/login-user' successfully
+
+2019-01-20 23:49:26 - [MESSAGE][PASSED] - Navigate to 'http://dev.intellasphere.com/login-user' successfully
+
+2019-01-20 23:49:26 - [TEST_STEP][PASSED] - waitForPageLoad(10000): Wait for page load successfully
+
+2019-01-20 23:49:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-20 23:49:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Page/EmailUsername Text Field"), Email): Keys 'juryjack18@gmail.com' sent to object: 'tempBody'
+
+2019-01-20 23:49:26 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Login Page/EmailUsername Text Field' does not exist
+
+2019-01-20 23:49:26 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-01-20 23:49:26 - [MESSAGE][PASSED] - Keys 'juryjack18@gmail.com' sent to object: 'tempBody'
+
+2019-01-20 23:49:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Page/Password Text Field"), Password): Keys 'qwerty' sent to object: 'Object Repository/Login Page/Password Text Field'
+
+2019-01-20 23:49:26 - [MESSAGE][PASSED] - Keys 'qwerty' sent to object: 'Object Repository/Login Page/Password Text Field'
+
+2019-01-20 23:49:26 - [TEST_STEP][PASSED] - Thread.sleep(10000): null
+
+2019-01-20 23:49:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/Log In Button")): Object: 'Object Repository/Login Page/Log In Button' is clicked on
+
+2019-01-20 23:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Log In Button' is clicked on
+
+2019-01-20 23:49:38 - [TEST_STEP][PASSED] - Thread.sleep(10000): null
+
+2019-01-20 23:49:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-01-20 23:49:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-20 23:49:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2019-01-20 23:49:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-20 23:49:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Login Test Cases/User Login With Null Credentials" classname="Test Cases/User Login Test Cases/User Login With Null Credentials" status="FAILED">
+         <failure type="FAILED" message="Test Cases/User Login Test Cases/User Login With Null Credentials FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Login Page/Password Text Field' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page/Password Text Field' located by 'By.xpath: id(&quot;ES_loginDiv-innerCt&quot;)/form[1]/fieldset[@class=&quot;loginFileds&quot;]/ul[1]/li[2]/input[@class=&quot;password&quot;]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at User Login With Null Credentials.run(User Login With Null Credentials:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548008201949.run(TempTestSuite1548008201949.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-20 23:49:50 - [TEST_CASE][FAILED] - Test Cases/User Login Test Cases/User Login With Null Credentials: Test Cases/User Login Test Cases/User Login With Null Credentials FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Login Page/Password Text Field' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page/Password Text Field' located by 'By.xpath: id("ES_loginDiv-innerCt")/form[1]/fieldset[@class="loginFileds"]/ul[1]/li[2]/input[@class="password"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at User Login With Null Credentials.run(User Login With Null Credentials:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548008201949.run(TempTestSuite1548008201949.groovy:36)
+
+
+2019-01-20 23:49:50 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Wait for page load successfully
+
+2019-01-20 23:49:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-20 23:49:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-01-20 23:49:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-20 23:49:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-20 23:50:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-20 23:50:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-20 23:50:16 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-20 23:50:16 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-01-20 23:50:16 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-01-20 23:50:16 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://dev.intellasphere.com/login-user' successfully
+
+2019-01-20 23:50:47 - [MESSAGE][PASSED] - Navigate to 'http://dev.intellasphere.com/login-user' successfully
+
+2019-01-20 23:50:47 - [TEST_STEP][PASSED] - waitForPageLoad(10000): Wait for page load successfully
+
+2019-01-20 23:50:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-20 23:50:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Page/EmailUsername Text Field"), Email): Keys '' sent to object: 'tempBody'
+
+2019-01-20 23:50:48 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Login Page/EmailUsername Text Field' does not exist
+
+2019-01-20 23:50:48 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-01-20 23:50:49 - [MESSAGE][PASSED] - Keys '' sent to object: 'tempBody'
+
+2019-01-20 23:50:49 - [TEST_STEP][FAILED] - sendKeys(findTestObject("Object Repository/Login Page/Password Text Field"), Password): sendKeys(findTestObject("Object Repository/Login Page/Password Text Field"), Password) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Login Page/Password Text Field' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page/Password Text Field' located by 'By.xpath: id("ES_loginDiv-innerCt")/form[1]/fieldset[@class="loginFileds"]/ul[1]/li[2]/input[@class="password"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at User Login With Null Credentials.run(User Login With Null Credentials:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548008201949.run(TempTestSuite1548008201949.groovy:36)
+
+
+2019-01-20 23:51:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("ES_loginDiv-innerCt")/form[1]/fieldset[@class="loginFileds"]/ul[1]/li[2]/input[@class="password"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-20 23:51:21 - [MESSAGE][FAILED] - Unable to send keys '' to object 'Object Repository/Login Page/Password Text Field' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page/Password Text Field' located by 'By.xpath: id("ES_loginDiv-innerCt")/form[1]/fieldset[@class="loginFileds"]/ul[1]/li[2]/input[@class="password"]' not found)
+[[ATTACHMENT|C:\\Users\\koush\\git\\Katalon-IntellaSphere-Dev\\Reports\\Login\\20190120_234641\\1548008480611.png]]
+
+2019-01-20 23:51:21 - [MESSAGE][FAILED] - sendKeys(findTestObject("Object Repository/Login Page/Password Text Field"), Password) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Login Page/Password Text Field' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page/Password Text Field' located by 'By.xpath: id("ES_loginDiv-innerCt")/form[1]/fieldset[@class="loginFileds"]/ul[1]/li[2]/input[@class="password"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at User Login With Null Credentials.run(User Login With Null Credentials:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548008201949.run(TempTestSuite1548008201949.groovy:36)
+
+
+2019-01-20 23:51:21 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-01-20 23:51:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-20 23:51:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2019-01-20 23:51:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-20 23:51:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2019-01-20 23:49:50 - [TEST_CASE][FAILED] - Test Cases/User Login Test Cases/User Login With Null Credentials: Test Cases/User Login Test Cases/User Login With Null Credentials FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Login Page/Password Text Field' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page/Password Text Field' located by 'By.xpath: id("ES_loginDiv-innerCt")/form[1]/fieldset[@class="loginFileds"]/ul[1]/li[2]/input[@class="password"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at User Login With Null Credentials.run(User Login With Null Credentials:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548008201949.run(TempTestSuite1548008201949.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Login Test Cases/User Login With Valid Credentials" classname="Test Cases/User Login Test Cases/User Login With Valid Credentials" status="PASSED">
+         <system-out><![CDATA[2019-01-20 23:51:22 - [TEST_CASE][PASSED] - Test Cases/User Login Test Cases/User Login With Valid Credentials: Test Cases/User Login Test Cases/User Login With Valid Credentials
+
+2019-01-20 23:51:22 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Wait for page load successfully
+
+2019-01-20 23:51:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-20 23:51:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-01-20 23:51:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-20 23:51:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-20 23:51:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-20 23:51:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-20 23:51:48 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-20 23:51:48 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-01-20 23:51:48 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-01-20 23:51:48 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://dev.intellasphere.com/login-user' successfully
+
+2019-01-20 23:52:15 - [MESSAGE][PASSED] - Navigate to 'http://dev.intellasphere.com/login-user' successfully
+
+2019-01-20 23:52:15 - [TEST_STEP][PASSED] - waitForPageLoad(10000): Wait for page load successfully
+
+2019-01-20 23:52:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-20 23:52:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Page/Username Text Field"), Email): Keys 'juryjack18@gmail.com' sent to object: 'Object Repository/Login Page/Username Text Field'
+
+2019-01-20 23:52:16 - [MESSAGE][PASSED] - Keys 'juryjack18@gmail.com' sent to object: 'Object Repository/Login Page/Username Text Field'
+
+2019-01-20 23:52:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login Page/Password Text Field"), Password): Keys 'lsnworks' sent to object: 'Object Repository/Login Page/Password Text Field'
+
+2019-01-20 23:52:17 - [MESSAGE][PASSED] - Keys 'lsnworks' sent to object: 'Object Repository/Login Page/Password Text Field'
+
+2019-01-20 23:52:17 - [TEST_STEP][PASSED] - Thread.sleep(10000): null
+
+2019-01-20 23:52:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/Log In Button")): Object: 'Object Repository/Login Page/Log In Button' is clicked on
+
+2019-01-20 23:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Log In Button' is clicked on
+
+2019-01-20 23:53:20 - [TEST_STEP][PASSED] - Thread.sleep(10000): null
+
+2019-01-20 23:53:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2019-01-20 23:53:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-20 23:53:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null
+
+2019-01-20 23:53:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-20 23:53:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-20 23:46:49 - [TEST_SUITE][FAILED] - Login: Test Cases/User Login Test Cases/User Login With Null Credentials FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Login Page/Password Text Field' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page/Password Text Field' located by 'By.xpath: id("ES_loginDiv-innerCt")/form[1]/fieldset[@class="loginFileds"]/ul[1]/li[2]/input[@class="password"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at User Login With Null Credentials.run(User Login With Null Credentials:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548008201949.run(TempTestSuite1548008201949.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-20 23:46:49 - [TEST_SUITE][FAILED] - Login: Test Cases/User Login Test Cases/User Login With Null Credentials FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Login Page/Password Text Field' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login Page/Password Text Field' located by 'By.xpath: id("ES_loginDiv-innerCt")/form[1]/fieldset[@class="loginFileds"]/ul[1]/li[2]/input[@class="password"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at User Login With Null Credentials.run(User Login With Null Credentials:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548008201949.run(TempTestSuite1548008201949.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

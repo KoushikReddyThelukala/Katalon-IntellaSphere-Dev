@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checking whether the user is able to Publish a Post, by not selecting any Profile's from the &quot;Select Profile(S)&quot; popup and by not entering Text and/or Link in the &quot;Enter Text And/Or Link To Be Published&quot; text field or not.</description>
+   <name>Test Case 8</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>71244901-804e-4bcc-aa0c-60ef1258f70e</testCaseGuid>
+   <variable>
+      <defaultValue>'juryjack18@gmail.com'</defaultValue>
+      <description></description>
+      <id>e7a0d17e-60be-4ac7-bb45-4915b43f9d68</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'lsnworks'</defaultValue>
+      <description></description>
+      <id>6e7c5e8a-b4c4-4289-b2bd-a7d97c8b89d6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>07a12ae0-1191-4f0a-a54f-5458cd2919d6</id>
+      <masked>false</masked>
+      <name>enterTextAndOrLink</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Chrome 71.0.3578.98,,2019-01-20 23:46:49,2019-01-20 23:53:31,6m - 41.606s,FAILED
+,,,,,,
+Test Cases/User Login Test Cases/User Login With Invalid Credentials,Chrome 71.0.3578.98,,2019-01-20 23:46:51,2019-01-20 23:47:56,1m - 4.701s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-20 23:46:51,2019-01-20 23:47:28,36.972s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Page/EmailUsername Text Field""), Email)",Chrome 71.0.3578.98,,2019-01-20 23:47:28,2019-01-20 23:47:29,0.379s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Page/Password Text Field""), Password)",Chrome 71.0.3578.98,,2019-01-20 23:47:29,2019-01-20 23:47:29,0.252s,PASSED
+Thread.sleep(10000),Chrome 71.0.3578.98,,2019-01-20 23:47:29,2019-01-20 23:47:39,10.037s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Log In Button""))",Chrome 71.0.3578.98,,2019-01-20 23:47:39,2019-01-20 23:47:45,5.434s,PASSED
+Thread.sleep(10000),Chrome 71.0.3578.98,,2019-01-20 23:47:45,2019-01-20 23:47:55,10.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-20 23:47:55,2019-01-20 23:47:56,0.955s,PASSED
+,,,,,,
+Test Cases/User Login Test Cases/User Login With Invalid Credentials,Chrome 71.0.3578.98,,2019-01-20 23:47:56,2019-01-20 23:48:55,59.191s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-20 23:47:56,2019-01-20 23:48:27,31.077s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Page/EmailUsername Text Field""), Email)",Chrome 71.0.3578.98,,2019-01-20 23:48:27,2019-01-20 23:48:27,0.260s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Page/Password Text Field""), Password)",Chrome 71.0.3578.98,,2019-01-20 23:48:27,2019-01-20 23:48:27,0.340s,PASSED
+Thread.sleep(10000),Chrome 71.0.3578.98,,2019-01-20 23:48:27,2019-01-20 23:48:37,10.006s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Log In Button""))",Chrome 71.0.3578.98,,2019-01-20 23:48:37,2019-01-20 23:48:44,6.485s,PASSED
+Thread.sleep(10000),Chrome 71.0.3578.98,,2019-01-20 23:48:44,2019-01-20 23:48:54,10.009s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-20 23:48:54,2019-01-20 23:48:55,0.932s,PASSED
+,,,,,,
+Test Cases/User Login Test Cases/User Login With Invalid Credentials,Chrome 71.0.3578.98,,2019-01-20 23:48:55,2019-01-20 23:49:50,54.951s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-20 23:48:55,2019-01-20 23:49:26,31.071s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Page/EmailUsername Text Field""), Email)",Chrome 71.0.3578.98,,2019-01-20 23:49:26,2019-01-20 23:49:26,0.289s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Page/Password Text Field""), Password)",Chrome 71.0.3578.98,,2019-01-20 23:49:26,2019-01-20 23:49:26,0.186s,PASSED
+Thread.sleep(10000),Chrome 71.0.3578.98,,2019-01-20 23:49:26,2019-01-20 23:49:36,10.006s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Log In Button""))",Chrome 71.0.3578.98,,2019-01-20 23:49:36,2019-01-20 23:49:38,1.830s,PASSED
+Thread.sleep(10000),Chrome 71.0.3578.98,,2019-01-20 23:49:38,2019-01-20 23:49:48,10.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-20 23:49:48,2019-01-20 23:49:50,1.480s,PASSED
+,,,,,,
+Test Cases/User Login Test Cases/User Login With Null Credentials,Chrome 71.0.3578.98,,2019-01-20 23:49:50,2019-01-20 23:51:22,1m - 32.250s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-20 23:49:50,2019-01-20 23:50:47,57.667s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Page/EmailUsername Text Field""), Email)",Chrome 71.0.3578.98,,2019-01-20 23:50:48,2019-01-20 23:50:49,0.193s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Page/Password Text Field""), Password)",Chrome 71.0.3578.98,,2019-01-20 23:50:49,2019-01-20 23:51:21,32.250s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-20 23:51:21,2019-01-20 23:51:22,1.257s,PASSED
+,,,,,,
+Test Cases/User Login Test Cases/User Login With Valid Credentials,Chrome 71.0.3578.98,,2019-01-20 23:51:22,2019-01-20 23:53:31,2m - 8.801s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-01-20 23:51:22,2019-01-20 23:52:15,52.811s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Page/Username Text Field""), Email)",Chrome 71.0.3578.98,,2019-01-20 23:52:16,2019-01-20 23:52:16,0.532s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login Page/Password Text Field""), Password)",Chrome 71.0.3578.98,,2019-01-20 23:52:16,2019-01-20 23:52:17,0.420s,PASSED
+Thread.sleep(10000),Chrome 71.0.3578.98,,2019-01-20 23:52:17,2019-01-20 23:52:27,10.002s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Log In Button""))",Chrome 71.0.3578.98,,2019-01-20 23:52:27,2019-01-20 23:53:20,52.764s,PASSED
+Thread.sleep(10000),Chrome 71.0.3578.98,,2019-01-20 23:53:20,2019-01-20 23:53:30,10.003s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-20 23:53:30,2019-01-20 23:53:31,1.303s,PASSED

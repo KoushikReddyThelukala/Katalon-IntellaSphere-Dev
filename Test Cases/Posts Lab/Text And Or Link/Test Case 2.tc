@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checking whether the user is able to Publish a Post, by selecting all Facebook Profile's from the &quot;Select Profile(S)&quot; popup and by entering Text and/or Link in the &quot;Enter Text And/Or Link To Be Published&quot; text field or not.</description>
+   <name>Test Case 2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27303a85-ed9c-4acd-a507-a8bcdae383e3</testCaseGuid>
+   <variable>
+      <defaultValue>'juryjack18@gmail.com'</defaultValue>
+      <description></description>
+      <id>5adcbb8a-56d4-498d-aab7-66caef557000</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'lsnworks'</defaultValue>
+      <description></description>
+      <id>222a306b-95ef-48d1-8b3d-d7e7ef1c84e0</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Checking whether the user is able to Publish a Post, by selecting all Facebook Profile\'s from the &quot;Select Profile(S)&quot; popup and by entering Text and/or Link in the &quot;Enter Text And/Or Link To Be Published&quot; text field or not. '</defaultValue>
+      <description></description>
+      <id>c8e07fba-3e5f-4f25-90cd-6911579680c3</id>
+      <masked>false</masked>
+      <name>enterTextAndOrLink</name>
+   </variable>
+</TestCaseEntity>

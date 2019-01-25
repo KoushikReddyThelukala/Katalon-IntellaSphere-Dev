@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checking whether the user is able to Publish a Post by adding a new Facebook profile or not.</description>
+   <name>Adding A Facebook Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8482b92-f0d5-429a-9295-d76f33ecfe10</testCaseGuid>
+   <variable>
+      <defaultValue>'juryjack18@gmail.com'</defaultValue>
+      <description></description>
+      <id>7daad1ad-67a4-4609-a0a9-4fcb04ca95ef</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'lsnworks'</defaultValue>
+      <description></description>
+      <id>8642412e-8355-434c-af32-4920d53e02c8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
